@@ -1,5 +1,8 @@
+version: '3'
 services:
   samba:
+    image: samba
+    container_name: samba
     tty: true
     network_mode: bridge
     ports:
